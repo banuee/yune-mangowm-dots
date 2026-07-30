@@ -8,10 +8,10 @@
 |---|---|---|
 | ![](./assets/1.png) | ![](./assets/2.png) | ![](./assets/3.png) |
 
-## Requirements
+## Programs and fonts that will be installed and configured:
 
-MangoWM, vibepanel, ghossty, fuzzel, cava, bibata-cursor-theme-bin
-Fonts: Crafty Girls, Playpen Sans Light, Red Hat Mono Light
+- MangoWM, vibepanel, ghossty, fuzzel, cava, bibata-cursor-theme-bin
+- Fonts: Crafty Girls, Playpen Sans Light, Red Hat Mono Light
 
 
 ## Installation
@@ -22,7 +22,7 @@ cd ~/.config/yune
 ./install.sh
 ```
 
-> To install wallpaper place it to ~/Pictures and replace my nickname (banue) to your in ~/.config/mango/Autostart.sh
+> To install wallpaper place it to ~/Pictures and replace my nickname (banue) with your in ~/.config/mango/Autostart.sh
 
 
 > ⚠️ Review `install.sh` before running — it may symlink over your existing configs.
@@ -122,7 +122,7 @@ yune/
 ## Credits
 
 - [MangoWM](https://github.com/DreamMaoMao/mango)
-- Wallpaper: *(credit artist if applicable)*
+- Wallpaper: https://4kwallpapers.com/anime/stellefly-honkai-26880.html
 
 ## License
 
