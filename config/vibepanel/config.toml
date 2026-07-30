@@ -1,0 +1,78 @@
+[bar]
+position = "top" 
+size = 30
+border_radius = 100
+background_opacity = 0.3
+background_color = "#000000"
+spacing = 10
+
+
+
+[widgets]
+
+left = [
+  "custom-os",
+  "clock",
+]
+          
+center = ["media"]
+
+right = [
+  "tray",
+  "quick_settings",
+  "battery",
+]
+
+border_radius = 80
+background_color = "#000000"
+background_opacity = 0.1
+
+   [widgets.clock]
+   format = "%H:%M"
+#
+   [widgets.battery]
+   disabled = true
+
+ [widgets.media]
+ visualizer = true
+ empty_text = "no media rn"
+ 
+#[widgets.custom-power]
+#icon = "system-shutdown-symbolic"
+#tooltip = "Power menu"
+#on_click = "~/.config/vibepanel/Scripts/power-menu.sh"
+
+[widgets.custom-os]
+label = "yune"
+on_click = "fuzzel"
+
+
+[widgets.updates]
+disabled = true
+
+[widgets.quick_settings]
+updates = true
+vpn = true
+power = true
+idle_inhibitor = true
+brightness = true
+on_click_right = "pwvucontrol"
+
+[theme]
+mode = "dark"
+accent = "#ffffff"
+outline = false
+outline_color = "accent"
+#animations = true
+#ripple = true
+
+[theme.icons]
+theme = "gtk"
+weight = 700
+
+[osd]
+enabled = false
+position = "left"
+
+[advanced]
+ compositor = "mango"

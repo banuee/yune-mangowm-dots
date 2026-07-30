@@ -1,0 +1,8 @@
+background = #000000
+foreground = #ffffff
+palette = 4=#cdd6f4
+background-opacity = 0.3
+background-blur = 16
+font-family = "Red Hat Mono"
+font-size = 12
+font-style = "Light"   

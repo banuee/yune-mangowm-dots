@@ -1,0 +1,22 @@
+
+.widgets-custom-os,
+.custom-os,
+.custom-os label {
+    font-family: "Crafty Girls";
+    font-size: 14pt;
+    margin: 0px 5px 0px 5px;
+
+}
+
+label {
+    font-family: "Playpen Sans Light";
+    font-size: 12.5pt;
+}
+
+.clock {
+    margin-top: 0px;
+}
+
+window, .window {
+    margin: 10px 10px 10px 10px;
+}
