@@ -2,12 +2,6 @@
 
 > Minimal MangoWM config — clean lines, calm palette, tiled workflow.
 
-![preview](./assets/preview.png)
-
-## About
-
-Dotfiles built around [MangoWM](https://github.com/DreamMaoMao/mango). Focused on a soft blue/teal aesthetic, low visual noise, and a fast keyboard-driven workflow.
-
 ## Screenshots
 
 | Desktop | Terminal | App launcher |
@@ -16,17 +10,20 @@ Dotfiles built around [MangoWM](https://github.com/DreamMaoMao/mango). Focused o
 
 ## Requirements
 
-MangoWM, vibepanel, ghossty, fuzzel, cava
+MangoWM, vibepanel, ghossty, fuzzel, cava, bibata-cursor-theme-bin
 Fonts: Crafty Girls, Playpen Sans Light, Red Hat Mono Light
 
 
 ## Installation
 
 ```bash
-git clone https://github.com/yourname/yune.git ~/.config/yune
+git clone https://github.com/banuee/yune-mangowm-dots.git ~/.config/yune
 cd ~/.config/yune
 ./install.sh
 ```
+
+> To install wallpaper place it to ~/Pictures and replace my nickname (banue) to your in ~/.config/mango/Autostart.sh
+
 
 > ⚠️ Review `install.sh` before running — it may symlink over your existing configs.
 
@@ -34,11 +31,10 @@ cd ~/.config/yune
 
 ```
 yune/
-├── mango/          # MangoWM config
-├── bar/            # status bar config
-├── terminal/       # terminal emulator config
-├── launcher/       # app launcher config
-├── assets/         # wallpapers, screenshots
+├── config/        # configs
+├── assets/         # screenshots
+├── fonts/          # fonts
+├── wallpapers      # wallpapers
 └── install.sh
 ```
 
